@@ -15,22 +15,16 @@ public class SelectionSort {
 
         int[] result = arr.clone();
         int n = result.length;
-        boolean sorted = true;
 
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
-            sorted = true; // Assume sorted until proven otherwise
 
             for (int j = i + 1; j < n; j++) {
                 tracker.recordComparison();
                 if (result[j] < result[minIndex]) {
                     minIndex = j;
-                    sorted = false; // Found out-of-order element
                 }
             }
-
-            // Early termination if already sorted
-            if (sorted) break;
 
             if (minIndex != i) {
                 swap(result, i, minIndex);

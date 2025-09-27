@@ -43,10 +43,6 @@ public class BenchmarkRunner {
                     System.out.println("Skipping selection sort for large size: " + size);
                     continue;
                 }
-                if (algorithm.equals("maxheap") && size > 10000) {
-                    System.out.println("Skipping maxheap for large size: " + size);
-                    continue;
-                }
 
                 System.out.println("\n--- Size: " + size + " ---");
                 runBenchmarks(algorithm, size);
