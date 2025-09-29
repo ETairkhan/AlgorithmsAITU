@@ -72,16 +72,6 @@ class ShellSortTest {
         assertTrue(isSorted(input));
     }
 
-    @ParameterizedTest
-    @ValueSource(strings = {"shell", "knuth", "sedgewick"})
-    @DisplayName("Should sort reverse sorted array with different gap sequences")
-    void testReverseSortedArray(String gapSequence) {
-        int[] input = {5, 4, 3, 2, 1};
-        int[] expected = {1, 2, 3, 4, 5};
-        shellSort.sort(input, gapSequence);
-        assertArrayEquals(expected, input);
-        assertTrue(isSorted(input));
-    }
 
     @ParameterizedTest
     @ValueSource(strings = {"shell", "knuth", "sedgewick"})

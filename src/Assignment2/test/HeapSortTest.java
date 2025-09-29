@@ -1,5 +1,6 @@
 package Assignment2.test;
 
+import Assignment2.algorithms.HeapSort;
 import Assignment2.metrics.PerformanceTracker;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
