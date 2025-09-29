@@ -1,7 +1,7 @@
 package Assignment2;
 
 import java.util.Scanner;
-import Assignment2.StudentB.cli.BenchmarkRunner;
+import Assignment2.cli.BenchmarkRunner;
 
 public class Main {
     public static void main(String[] args){
@@ -24,7 +24,7 @@ public class Main {
                     BenchmarkRunner.runAllBenchmarks();
                     break;
                 case 2:
-                    System.out.print("Enter algorithm (selection/heap/kadane/maxheap): ");
+                    System.out.print("Enter algorithm (heap/shell): ");
                     String algo = scanner.next();
                     System.out.print("Enter size: ");
                     int size = scanner.nextInt();
@@ -40,4 +40,3 @@ public class Main {
         }
     }
 }
-
