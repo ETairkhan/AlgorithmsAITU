@@ -96,7 +96,7 @@ public class BenchmarkRunner {
 
         tracker.reset();
         tracker.startTimer();
-        MinHeap heap = new MinHeap();
+        MinHeap heap = new MinHeap(data.length, tracker);
         for (int x : data) heap.insert(x);
         while (!heap.isEmpty()) heap.extractMin();
         tracker.stopTimer();
@@ -110,4 +110,6 @@ public class BenchmarkRunner {
         }
         return true;
     }
+
+
 }
