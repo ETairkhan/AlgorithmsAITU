@@ -59,7 +59,7 @@ public class ShellSort {
         }
     }
 
-    private int[] generateShellGaps(int n) {
+    public int[] generateShellGaps(int n) {
         // Original Shell's sequence: n/2, n/4, n/8, ..., 1
         int count = (int) (Math.log(n) / Math.log(2));
         int[] gaps = new int[count];
@@ -71,7 +71,7 @@ public class ShellSort {
         return gaps;
     }
 
-    private int[] generateKnuthGaps(int n) {
+    public int[] generateKnuthGaps(int n) {
         // Knuth's sequence: (3^k - 1)/2, less than n/3
         int k = 1;
         int maxGap = 1;
@@ -88,7 +88,7 @@ public class ShellSort {
         return gaps;
     }
 
-    private int[] generateSedgewickGaps(int n) {
+    public int[] generateSedgewickGaps(int n) {
         // Sedgewick's sequence: 4^k + 3*2^(k-1) + 1
         java.util.ArrayList<Integer> gapList = new java.util.ArrayList<>();
         int k = 0;
