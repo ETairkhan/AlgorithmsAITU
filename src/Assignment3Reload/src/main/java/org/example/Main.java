@@ -4,6 +4,7 @@ import org.example.algorithms.KruskalAlgorithm;
 import org.example.algorithms.PrimAlgorithm;
 import org.example.model.*;
 import org.example.util.JsonUtil;
+import org.example.util.JsonUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -65,9 +66,8 @@ public class Main {
                 results.add(graphResult);
             }
 
-            // Write output
-            OutputData outputData = new OutputData(results);
-            JsonUtil.writeOutput("output.json", outputData);
+            // Write output using manual JSON writer
+            JsonUtil.writeOutput(results, "output.json");
 
             System.out.println("Processing completed successfully!");
             System.out.println("Results written to output.json");
