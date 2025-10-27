@@ -1,12 +1,13 @@
-package Assignment3.Tairkhan;
+package org.example.model;
 
-import java.util.*;
-import Assignment3.Tairkhan.*;
+import java.util.List;
 
 public class Graph {
     private int id;
     private List<String> nodes;
     private List<Edge> edges;
+
+    public Graph() {}
 
     public Graph(int id, List<String> nodes, List<Edge> edges) {
         this.id = id;
@@ -14,10 +15,13 @@ public class Graph {
         this.edges = edges;
     }
 
-    // Getters
+    // Getters and Setters
     public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+
     public List<String> getNodes() { return nodes; }
+    public void setNodes(List<String> nodes) { this.nodes = nodes; }
+
     public List<Edge> getEdges() { return edges; }
-    public int getVertexCount() { return nodes.size(); }
-    public int getEdgeCount() { return edges.size(); }
+    public void setEdges(List<Edge> edges) { this.edges = edges; }
 }

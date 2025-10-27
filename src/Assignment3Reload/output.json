@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "graphId": 1,
+      "inputStats": {
+        "vertices": 5,
+        "edges": 7
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 3
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 5
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 6
+          }
+        ],
+        "totalCost": 16,
+        "operationsCount": 61,
+        "executionTimeMs": 3.6897
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "A",
+            "to": "C",
+            "weight": 3
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 5
+          },
+          {
+            "from": "D",
+            "to": "E",
+            "weight": 6
+          }
+        ],
+        "totalCost": 16,
+        "operationsCount": 81,
+        "executionTimeMs": 1.6451
+      }
+    },
+    {
+      "graphId": 2,
+      "inputStats": {
+        "vertices": 4,
+        "edges": 5
+      },
+      "prim": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 3
+          }
+        ],
+        "totalCost": 6,
+        "operationsCount": 38,
+        "executionTimeMs": 0.0396
+      },
+      "kruskal": {
+        "mstEdges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 2
+          },
+          {
+            "from": "C",
+            "to": "D",
+            "weight": 3
+          }
+        ],
+        "totalCost": 6,
+        "operationsCount": 58,
+        "executionTimeMs": 0.0396
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "graph1": {
+    "vertices": ["A", "B", "C", "D"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 1},
+      {"from": "A", "to": "C", "cost": 4},
+      {"from": "B", "to": "C", "cost": 2},
+      {"from": "B", "to": "D", "cost": 5},
+      {"from": "C", "to": "D", "cost": 1}
+    ]
+  },
+  "graph2": {
+    "vertices": ["A", "B", "C", "D", "E"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 1},
+      {"from": "A", "to": "C", "cost": 4},
+      {"from": "B", "to": "C", "cost": 2},
+      {"from": "B", "to": "D", "cost": 5},
+      {"from": "C", "to": "D", "cost": 1},
+      {"from": "C", "to": "E", "cost": 3},
+      {"from": "D", "to": "E", "cost": 2}
+    ]
+  },
+  "graph3": {
+    "vertices": ["A", "B", "C", "D", "E"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 10},
+      {"from": "A", "to": "C", "cost": 1},
+      {"from": "A", "to": "D", "cost": 4},
+      {"from": "A", "to": "E", "cost": 3},
+      {"from": "B", "to": "C", "cost": 5},
+      {"from": "C", "to": "D", "cost": 2},
+      {"from": "D", "to": "E", "cost": 6}
+    ]
+  },
+  "graph4": {
+    "vertices": ["A", "B", "C", "D", "E", "F"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 1},
+      {"from": "A", "to": "C", "cost": 3},
+      {"from": "B", "to": "C", "cost": 2},
+      {"from": "C", "to": "D", "cost": 4},
+      {"from": "D", "to": "E", "cost": 1},
+      {"from": "E", "to": "F", "cost": 2},
+      {"from": "F", "to": "A", "cost": 5}
+    ]
+  },
+  "graph5": {
+    "vertices": ["A", "B", "C", "D", "E", "F"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 1},
+      {"from": "A", "to": "C", "cost": 4},
+      {"from": "B", "to": "C", "cost": 2},
+      {"from": "B", "to": "D", "cost": 5},
+      {"from": "C", "to": "D", "cost": 1},
+      {"from": "C", "to": "E", "cost": 3},
+      {"from": "D", "to": "E", "cost": 2},
+      {"from": "E", "to": "F", "cost": 1},
+      {"from": "F", "to": "A", "cost": 6}
+    ]
+  },
+  "graph6": {
+    "vertices": ["A", "B", "C", "D", "E", "F", "G"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 3},
+      {"from": "A", "to": "C", "cost": 1},
+      {"from": "B", "to": "D", "cost": 2},
+      {"from": "C", "to": "D", "cost": 4},
+      {"from": "D", "to": "E", "cost": 2},
+      {"from": "E", "to": "F", "cost": 3},
+      {"from": "F", "to": "G", "cost": 1},
+      {"from": "G", "to": "A", "cost": 5}
+    ]
+  },
+  "graph7": {
+    "vertices": ["A", "B", "C", "D", "E"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 5},
+      {"from": "A", "to": "C", "cost": 7},
+      {"from": "B", "to": "C", "cost": 1},
+      {"from": "B", "to": "D", "cost": 4},
+      {"from": "C", "to": "D", "cost": 3},
+      {"from": "C", "to": "E", "cost": 8},
+      {"from": "D", "to": "E", "cost": 2}
+    ]
+  },
+  "graph8": {
+    "vertices": ["A", "B", "C", "D", "E", "F"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 6},
+      {"from": "A", "to": "C", "cost": 2},
+      {"from": "B", "to": "C", "cost": 3},
+      {"from": "B", "to": "D", "cost": 5},
+      {"from": "C", "to": "E", "cost": 4},
+      {"from": "D", "to": "E", "cost": 1},
+      {"from": "E", "to": "F", "cost": 2},
+      {"from": "F", "to": "A", "cost": 7}
+    ]
+  },
+  "graph9": {
+    "vertices": ["A", "B", "C", "D"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 9},
+      {"from": "A", "to": "C", "cost": 3},
+      {"from": "B", "to": "C", "cost": 4},
+      {"from": "B", "to": "D", "cost": 8},
+      {"from": "C", "to": "D", "cost": 2}
+    ]
+  },
+  "graph10": {
+    "vertices": ["A", "B", "C", "D", "E", "F", "G", "H"],
+    "edges": [
+      {"from": "A", "to": "B", "cost": 4},
+      {"from": "A", "to": "C", "cost": 8},
+      {"from": "B", "to": "C", "cost": 9},
+      {"from": "B", "to": "D", "cost": 10},
+      {"from": "C", "to": "E", "cost": 3},
+      {"from": "D", "to": "E", "cost": 5},
+      {"from": "E", "to": "F", "cost": 2},
+      {"from": "F", "to": "G", "cost": 6},
+      {"from": "G", "to": "H", "cost": 1},
+      {"from": "H", "to": "A", "cost": 7}
+    ]
+  }
+}
