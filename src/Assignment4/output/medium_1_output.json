@@ -1,0 +1,40 @@
+{
+  "scc" : {
+    "condensation_graph" : { },
+    "metrics" : {
+      "edge_traversals" : 72,
+      "dfs_visits" : 45,
+      "time_ns" : 98400
+    },
+    "components" : [ ]
+  },
+  "topological_sort" : {
+    "metrics" : {
+      "edge_traversals" : 0,
+      "time_ns" : 6000,
+      "queue_operations" : 0
+    },
+    "component_order" : [ ]
+  },
+  "shortest_paths" : {
+    "distances" : [ 0, 2, 3, 6, 8, 9, 13, 15, 5, 6, 8, 10, 11, 13, 17 ],
+    "longest_distances" : [ 34, 2, 3, 22, 8, 9, 13, 15, 18, 19, 21, 24, 25, 27, 31 ],
+    "critical_path" : {
+      "length" : 34,
+      "path" : [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0 ]
+    },
+    "metrics" : {
+      "relax_operations" : 54,
+      "time_ns" : 338800,
+      "queue_operations" : 45
+    },
+    "source" : 0
+  },
+  "dataset_info" : {
+    "edges" : 18,
+    "weight_model" : "edge",
+    "nodes" : 15,
+    "name" : "src/main/java/org/example/data/medium_1.json",
+    "source" : 0
+  }
+}
